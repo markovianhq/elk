@@ -98,9 +98,13 @@ network.host: 0.0.0.0
 #
 #------------------------------------ Slack --------------------------------------
 #
-#watcher.actions.slack.service:
-# account:
-#   monitoring:
-#     url: https://hooks.slack.com/services/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
-#     message_defaults:
-#       from: Watcher
+watcher.actions.slack.service:
+ account:
+   monitoring:
+     url: https://hooks.slack.com/services/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
+     message_defaults:
+       from: Watcher
+#
+#------------------------------ Automatic index creation -------------------------------
+#
+action.auto_create_index: .watches,.triggered_watches,.watcher-history*
