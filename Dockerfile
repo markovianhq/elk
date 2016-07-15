@@ -7,3 +7,4 @@ RUN bin/plugin install license \
 
 ADD ./03-luigi-file-input.conf /etc/logstash/conf.d/03-luigi-file-input.conf
 ADD ./30-output.conf /etc/logstash/conf.d/30-output.conf
+ADD ./elasticsearch.yml /etc/elasticsearch/elasticsearch.yml
