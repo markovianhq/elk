@@ -7,7 +7,4 @@ For setup and instructions please check out the [readme](https://github.com/spuj
 
 To use this image, start a container with
 
-    # tasks/main.yml
-    ... 
-    docker_container:
-      image: markovian/elk
+    $ docker run markovian/elk ...
